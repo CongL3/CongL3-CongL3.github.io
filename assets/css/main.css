@@ -2598,6 +2598,11 @@ input, select, textarea {
 			display: block;
 		}
 
+		.image.center {
+			display: block;
+			margin: 0 auto;
+		}
+		
 		.image.left, .image.right {
 			max-width: 40%;
 		}
@@ -2856,6 +2861,17 @@ input, select, textarea {
 			padding-left: 0.5rem;
 		}
 
+		.tags li {
+			display: inline-block;
+			font-size: 14px;
+			line-height: 20px;
+			background-color: #fff;
+			box-shadow: 0 1px 4px rgb(0 0 0 / 14%);
+			padding: 5px 10px;
+			margin-right: 10px;
+			border-radius: 3px;
+		}
+		
 		ul.divided {
 			list-style: none;
 			padding-left: 0;
